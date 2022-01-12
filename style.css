@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=The+Nautigal&display=swap');
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    font-size: 1.5rem;
+    border-style: solid;
+    border-color: limegreen;
+    padding: 1rem 1.5rem;
+    float: center;
+    margin: 10px;
+    margin-left: 75vh;
+    position: absolute;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+input {
+    width: 50%;
+    height: 7%;
+    border-radius: 2rem;
+    margin: 20px;
+    margin-top: 30vh;
+    margin-left: 50vh;
+    position: absolute;
+}
+
+button {
+    border-radius: 5rem;
+    padding: 0.8rem;
+    background-color: darkturquoise;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 65%;
+    transition-duration: 0.5s;
+
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+p {
+    border-style: solid;
+    border-color: lime;
+    color: white;
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 5;
+    margin-top: 60vh;
+    transition-duration: 0.4s;
+}
+
+p:hover {
+    background-color: darkcyan;
+}
+
+h1:hover {
+    background-color: darkcyan;
+}
+
+#result {
+    margin-left: 10%;
+}
+
+#result2 {
+    margin-left: 40%;
+}
+
+#result3 {
+    margin-left: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=The+Nautigal&display=swap');
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    font-size: 1rem;
+    border-style: solid;
+    border-color: limegreen;
+    padding: 0.5rem 1.5rem;
+    float: center;
+    margin: 10px;
+    margin-left: 10vh;
+    position: absolute;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+input {
+    width: 50%;
+    height: 3%;
+    border-radius: 2rem;
+    margin: 20px;
+    margin-top: 11vh;
+    margin-left: 10vh;
+    position: absolute;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 5rem;
+    padding: 0.1rem;
+    background-color: darkturquoise;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 57%;
+    transition-duration: 0.5s;
+
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+p {
+    border-style: solid;
+    border-color: lime;
+    color: white;
+    padding: 0.1rem;
+    position: absolute;
+    z-index: 5;
+    margin-top: 19vh;
+    transition-duration: 0.4s;
+}
+
+p:hover {
+    background-color: darkcyan;
+}
+
+h1:hover {
+    background-color: darkcyan;
+}
+
+#result {
+    margin-left: 0%;
+}
+
+#result2 {
+    margin-left: 28%;
+}
+
+#result3 {
+    margin-left: 60%;
+}
+    
+}
